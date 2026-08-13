@@ -112,12 +112,13 @@
 <a href="https://t.me/alex_cashflow"
    class="telegram-button"
    target="_blank"
-   rel="noopener noreferrer">
-
-    <img src="assets/telegram.png" alt="Telegram" width="20" height="20">
-
-    <span>Написать в Telegram</span>
-
+   rel="noopener noreferrer"
+   onclick="gtag('event', 'telegram_click', {
+     'event_category': 'contact',
+     'event_label': 'Telegram'
+   });">
+  <img src="assets/telegram.png" alt="Telegram" width="20" height="20">
+  <span>Написать в Telegram</span>
 </a>
                     
                 </div>
